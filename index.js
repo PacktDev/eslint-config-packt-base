@@ -35,6 +35,7 @@ module.exports = {
         '?': 'before',
         ':': 'before'
       }
-    }]
+    }],
+    'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }]
   },
 };
