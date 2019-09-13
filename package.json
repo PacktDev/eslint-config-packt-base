@@ -1,12 +1,12 @@
 {
   "name": "eslint-config-packt-base",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Packt's base JS ESLint  config",
   "main": "index.js",
   "scripts": {
     "prelint": "eclint check * rules/* test/*",
     "lint": "eslint --report-unused-disable-directives .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
